@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    color: white;
+    background-size: cover; 
+    background-image: url("images/astronaut.jpg");
+}
+input{
+    color: white;
+    background: transparent;
+    height: 2.6rem;
+    width: 10rem;
+    border: ;
+}
+.form-container {
+    z-index: 1;
+    padding: 5% 29% 0% 29%;
+}
+h1{
+    font-family: 'Noto Serif', 'PT Serif', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+    text-shadow:
+    -1px -1px 0 yellow,
+    1px -1px 0 yellow,
+    -1px 1px 0 yellow,
+    1px 1px 0 yellow;
+}
+
+p{ 
+    font-family: 'Noto Serif', 'PT Serif', serif;
+    text-align: center;
+}
+
+video{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+th{
+    font-size: 18px; 
+    padding-bottom: 30px;
+}
+.BUTTON_RQG {
+    font-weight: 800;
+    font-size: 1rem;   
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Noto Serif', 'PT Serif', serif;
+    width: 175px;
+    background-color: #000000;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    border: solid #44566A 1px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+.BUTTON_RQG:hover {
+    background: #2A2B2C;
+    border: solid #000000 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.rowbtn{
+    position: relative;
+    left: 50%;
+    top: -85px; 
+}
+
+.boxed{
+    position: relative;
+    border: solid 1px white;
+    top: 150px;
+    font-size: 1.8rem;
+}
+
+em{
+    color: #33FF33;
+}

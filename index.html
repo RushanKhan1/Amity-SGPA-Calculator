@@ -1,0 +1,86 @@
+<!DOCTYPE htmlp><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<!-- <video width="560" height="420" autoplay loop> -->
+<!-- <source src="moving-stars.webm" type="video/webm"> -->
+<!-- </video> -->
+<h1>Amity University SGPA Calculator</h1>
+<p>Note: If your semester has less courses then leave the extra fields blank</p>
+    <div class="form-container"> 
+    <form action="/" method="post">
+      <table>
+	<thead>
+	  <tr>
+	    <th>Course Name</th>
+	    <th>Course Credits</th>
+	    <th>Grade Points Received</th>
+	  </tr>
+	</thead>
+	<tbody><tr>
+	  <td>
+	    <input name="cName" placeholder="Course Name" type="text" value>
+	  </td>
+	  <td>
+	     <input name="credits" type="text" placeholder="Credits" value>
+	  </td>
+	  <td>
+	     <input name="points" type="text" placeholder="Grade Points" value>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <input name="cName" placeholder="Course Name" type="text" value>
+	  </td>
+	  <td>
+	     <input name="credits" type="text" placeholder="Credits" value>
+	  </td>
+	  <td>
+	     <input name="points" type="text" placeholder="Grade Points" value>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	     <input name="cName" placeholder="Course Name" type="text" value>
+	  </td>
+	  <td>
+	     <input name="credits" type="text" placeholder="Credits" value>
+	  </td>
+	  <td>
+	     <input name="points" type="text" placeholder="Grade Points" value>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	     <input name="cName" placeholder="Course Name" type="text" value>
+	  </td>
+	  <td>
+	     <input name="credits" type="text" placeholder="Credits" value>
+	  </td>
+	  <td>
+	     <input name="points" type="text" placeholder="Grade Points" value>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	     <input name="cName" placeholder="Course Name" type="text" value>
+	  </td>
+	  <td>
+	     <input name="credits" type="text" placeholder="Credits" value>
+	  </td>
+	  <td>
+	     <input name="points" type="text" placeholder="Grade Points" value>
+	  </td>
+	</tr>	
+      </table>      
+      <button name="submit" type="submit" class="BUTTON_RQG">Calculate SGPA</button>
+    </form>
+     <form action="/addrow" method="post">
+      <button class="BUTTON_RQG rowbtn" type="submit" name="submit">Add More Courses</button>
+    </form>
+    </div>
+  </body>
+</html>
