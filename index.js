@@ -49,5 +49,3 @@ app.post("/addrow", function(req, res){ //this works yayy :)
     res.send($.html());
     console.log($.html());
 });
-
-//finally completed :)
