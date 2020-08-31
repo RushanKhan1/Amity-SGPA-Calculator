@@ -44,7 +44,7 @@ app.listen(3000, function(){
 var row = '<tr><td><input name="cName" placeholder="Course Name" type="text" value=""/></td><td><input name="credits" type="text" placeholder="Credits" value=""/></td><td><input name="points" type="text" placeholder="Grade Points" value=""/></td></tr>';
 
 
-app.post("/addrow", function(req, res){ //this works yayy :)
+app.post("/addrow", function(req, res){
     $("table").append(row);
     res.send($.html());
     console.log($.html());
